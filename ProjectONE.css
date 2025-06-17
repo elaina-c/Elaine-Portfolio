@@ -438,4 +438,12 @@ html {
     gap: 20px;
     width: 100%;
   }
+
+  
+  .personal-info p {
+  margin: 0;
+  text-indent: 0;
+  box-sizing: border-box;
+  }
+}
 }
