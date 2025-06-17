@@ -127,6 +127,11 @@ html {
   box-sizing: border-box;
 }
 
+.personal-info, .short-intro {
+  width: 100%;
+  max-width: 600px;
+}
+
 .my_picture {
   width: 300px;
   height: 300px;
@@ -349,22 +354,16 @@ html {
     border: 4px solid #4c678b;
   }
 
-  .personal-info {
+  .personal-info,   .short-intro {
     height: auto;
     width: 360px;
     font-size: 15px;
     padding-bottom: 20px;
+    margin: 10px auto;
   }
 
   .About-Me-container {
     height: auto;
-  }
-
-  .short-intro {
-    height: auto;
-    width: 360px;
-    font-size: 15px;
-    padding-bottom: 20px;
   }
 
   .project-container {
@@ -438,12 +437,4 @@ html {
     gap: 20px;
     width: 100%;
   }
-
-  
-  .personal-info p {
-  margin: 0;
-  text-indent: 0;
-  box-sizing: border-box;
-  }
-}
 }
